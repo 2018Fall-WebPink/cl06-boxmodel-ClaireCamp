@@ -1,7 +1,7 @@
 /*
 *Claire Campbell
-*Due Date
-*Project Name and Description
+*12/9/18
+*Box Model Project is an example of how borders, padding, and margins are created. 
 */
 
 /*The universal selector*/
@@ -9,38 +9,45 @@
 * { margin: 0;
     padding: 0;
 }
+/* This is how the border is created for the heading*/
 h1 {border: 1px dashed black;
 height: 30px;
 width: 440px}
 
+/*This is how the border is created for the paragraph*/
 p{border: 1px dashed black;
 height: 35px;
 width: 455px;}
 
+/*This is how the border is created for the main body*/
 main {border: 2px solid black;
 height: 146px;
 width: 496px;}
 
+/*This is how the border is created for the whole body*/
 body{border: 2px dashed black;
 height: 136px;
 width: 487px;}
 
-
+/*This is the padding for the heading*/
 h1{padding:.5em;} 
 
+/*This is the padding for the paragraph*/
 p{padding:.5em;} 
 
+/*This is the padding for the main body*/
 main{padding-top: 1.5em;
 padding-right: 0em;
 padding-bottom: 0em;
 padding-left: .5em;}
 
+/*This is the padding for the whole body*/
 body{padding-top: 1em;
 padding-right: 5em;
 padding-bottom: 4em;
 padding-left: 1em;}
 
-
+/*These are the margins for the heading, paragraph, main body, and whole body.*/
 h1{margin: .20em;}
 p{margin: .4em;}
 main{margin: .25em;}
