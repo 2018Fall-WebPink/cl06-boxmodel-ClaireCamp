@@ -1,0 +1,48 @@
+/*
+*Claire Campbell
+*Due Date
+*Project Name and Description
+*/
+
+/*The universal selector*/
+
+* { margin: 0;
+    padding: 0;
+}
+h1 {border: 1px dashed black;
+height: 30px;
+width: 440px}
+
+p{border: 1px dashed black;
+height: 35px;
+width: 455px;}
+
+main {border: 2px solid black;
+height: 146px;
+width: 496px;}
+
+body{border: 2px dashed black;
+height: 136px;
+width: 487px;}
+
+
+h1{padding:.5em;} 
+
+p{padding:.5em;} 
+
+main{padding-top: 1.5em;
+padding-right: 0em;
+padding-bottom: 0em;
+padding-left: .5em;}
+
+body{padding-top: 1em;
+padding-right: 5em;
+padding-bottom: 4em;
+padding-left: 1em;}
+
+
+h1{margin: .20em;}
+p{margin: .4em;}
+main{margin: .25em;}
+body{margin: .5em;}
+
